@@ -3,7 +3,13 @@ import React from 'react'
 const MisatoConfig = {
   name: "Misato",
   backgroundImage:
-    "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+    "https://user-images.githubusercontent.com/3853064/127108303-6895eb8b-c249-4044-9ae5-28b3c73cbb7e.png",
+  description: (
+    <h1 className="text-2xl font-semibold text-white lg:text-3xl">
+      Post on confession page{" "}
+      <span className="text-red-400 underline">Anonymously</span>
+    </h1>
+  ),
 };
 
 export default MisatoConfig;
