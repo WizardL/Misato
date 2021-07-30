@@ -1,0 +1,11 @@
+motor
+python-jose
+bcrypt
+uvicorn
+pymongo
+python-decouple
+fastapi
+pydantic[email]
+passlib
+pip-tools
+facebook-sdk

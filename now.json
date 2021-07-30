@@ -1,0 +1,4 @@
+{
+  "builds": [{ "src": "/src/app.py", "use": "@now/python" }],
+  "routes": [{ "src": "/(.*)", "dest": "src/app.py" }]
+}
